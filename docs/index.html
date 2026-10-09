@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="./internal/immutable/entry/start.6a57246a.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/index.3d718cdb.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/singletons.7282ef30.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/paths.eb36aba4.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/control.c2cf8273.js">
+		<link rel="modulepreload" href="./internal/immutable/entry/app.44b2aaa7.js">
+		<link rel="modulepreload" href="./internal/immutable/chunks/preload-helper.a4192956.js">
+	</head>
+	<body data-sveltekit-prefetch>
+		<div>
+			<script>
+				{
+					__sveltekit_1lfh8no = {
+						assets: "/Sliders-Mauritania",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./internal/immutable/entry/start.6a57246a.js"),
+						import("./internal/immutable/entry/app.44b2aaa7.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
